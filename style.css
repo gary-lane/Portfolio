@@ -1,0 +1,39 @@
+body {
+  background-color: #fcfcfc;
+}
+header,
+footer {
+  display: flex;
+  background-color: #385b94;
+  justify-content: center;
+  border-radius: 20px;
+}
+p,
+h1,
+h2 {
+  margin: 5px;
+  color: #f6ae2d;
+}
+.item {
+  margin: 10px;
+  padding: 5px;
+  background-color: #385b94;
+  border: #385b94 solid 10px;
+  border-radius: 15px;
+  display: flex;
+}
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #02020a;
+  border-radius: 25px;
+}
+.content {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+.item.p_thumb {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
