@@ -2,4 +2,5 @@
 #FCFCFC - White
 #385B94 - Bdazzled Blue
 #279AF1 - Carolina Blue
+#296ED1 - Celtic Blue
 #F6AE2D - Honey Yellow
