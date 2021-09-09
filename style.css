@@ -9,12 +9,6 @@ footer {
   border-radius: 20pt;
   border: #279af1 5pt solid;
 }
-header {
-  align-items: flex-start;
-}
-footer {
-  align-items: flex-end;
-}
 p {
   margin: 5px;
   color: #131200;
@@ -60,4 +54,10 @@ img {
   border-radius: 20pt;
   border: #279af1 solid 5pt;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  align-items: center;
+  flex-direction: column;
 }
