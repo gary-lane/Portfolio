@@ -1,5 +1,6 @@
 body {
   background-color: #296ed1;
+  font-size: 12pt;
 }
 header,
 footer {
@@ -72,4 +73,7 @@ footer {
 }
 nav {
   padding-bottom: 5px;
+}
+.bio {
+  font-size: 16pt;
 }
