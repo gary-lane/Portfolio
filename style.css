@@ -88,3 +88,15 @@ nav {
   color: #131200;
   background-color: #f6ae2d;
 }
+a:link {
+  color: #385b94;
+}
+a:visited {
+  color: #131200;
+}
+a:hover {
+  color: #f6ae2d;
+}
+a:active {
+  color: #f6ae2d;
+}
