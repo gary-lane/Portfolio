@@ -42,7 +42,7 @@ h2 {
 }
 .content {
   display: grid;
-  grid-template-columns: minmax(250px, 25%) 1fr;
+  grid-template-columns: minmax(200px, 25%) 1fr;
 }
 img {
   margin-right: 20px;
@@ -57,6 +57,13 @@ img {
   margin: 10px;
   display: flex;
   flex-direction: column;
+}
+.sidebar h2 {
+  text-align: center;
+  margin: 0px;
+}
+.sidebar p {
+  margin: 10px;
 }
 footer {
   align-items: center;
@@ -75,5 +82,9 @@ nav {
   padding-bottom: 5px;
 }
 .bio {
-  font-size: 16pt;
+  font-size: 12pt;
+}
+.highlight {
+  color: #131200;
+  background-color: #f6ae2d;
 }
