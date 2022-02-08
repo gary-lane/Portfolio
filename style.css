@@ -1,5 +1,5 @@
 body {
-  background-color: #296ed1;
+  background-color: #133564;
   font-size: 12pt;
 }
 header,
@@ -15,7 +15,7 @@ footer {
   align-items: center;
   flex-direction: column;
   position: fixed;
-  height: 150px;
+  height: 23.5%;
   width: 98%;
   bottom: 0;
   padding: 0px;
@@ -51,7 +51,7 @@ h2 {
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: #296ed1;
+  background-color: #133564;
   border-radius: 25pt;
   height: 100%;
 }
@@ -61,7 +61,7 @@ h2 {
 }
 .content {
   display: grid;
-  grid-template-columns: minmax(200px, 25%) 1fr;
+  grid-template-columns: minmax(200px, 34%) 1fr;
 }
 img {
   margin-right: 20px;
@@ -70,9 +70,9 @@ img {
   border-radius: 50px;
 }
 .sidebar_spacer {
-  top: 200px;
+  top: 100px;
   bottom: 160px;
-  width: 400px;
+  width: 30%;
 }
 .sidebar {
   position: fixed;
@@ -82,9 +82,9 @@ img {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  top: 200px;
-  bottom: 160px;
-  width: 25%;
+  top: 12%;
+  bottom: 25.5%;
+  width: 30%;
 }
 .sidebar h2 {
   text-align: center;
@@ -125,5 +125,9 @@ a:active {
   color: #f6ae2d;
 }
 .spacer {
-  height: 150px;
+  height: 188px;
+  bottom: 0;
+}
+.header_spacer {
+  height: 86px;
 }
